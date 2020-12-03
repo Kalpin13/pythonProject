@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def temp(request):
-    return HttpResponse('Hello! Your app is working properly.')
+    return render(request,'student/temp.html')
